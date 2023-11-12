@@ -128,7 +128,7 @@ nav ul {
 }
 
 .opaque {
-    background-color: rgba(0, 0, 0, 0.771);
+    background-color: rgba(0, 0, 0, 0.925);
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -141,19 +141,19 @@ nav ul {
 }
 
 .navigation {
-    background-color: var(--Light);
+    background-color: var(--heroBackground-3);
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     text-align: center;
     padding: 2em 0;
     transition: 2s;
     position: absolute;
-    z-index: 1;
-    top: -100%;
+    z-index: 100;
+    left: -100%;
 }
 
 .navigation.active {
-    top: 57px;
+    left: 0;
 }
 
 .navigation ul {

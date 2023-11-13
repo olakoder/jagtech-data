@@ -672,7 +672,7 @@ footer {
     }
 
     .head-title {
-        color: var(--Light-Blue);
+        color: var(--textBlue);
         font-weight: bold;
     }
     /* END */
